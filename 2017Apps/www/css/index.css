@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'cwTeXYen-zhonly';
+    src: url('../fonts/cwTeXYen-zhonly.ttf') format('truetype');
+}
+
+.title {
+    font-family: 'cwTeXYen-zhonly';
+    text-align: center;
+}
+
+.content {
+    position: fixed;
+    top: 80px;
+    text-align: center;
+}
+
+.button-bar {
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
