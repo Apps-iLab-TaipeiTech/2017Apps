@@ -1,9 +1,4 @@
-﻿angular.module('2017Apps').run(['$ionicPlatform', 'DirectUpdateService', function ($ionicPlatform, DirectUpdateService) {
+﻿angular.module('2017Apps').run(['$ionicPlatform', function ($ionicPlatform) {
     $ionicPlatform.ready(function () {
-        window.BOOTSTRAP_OK = true;
-
-        DirectUpdateService.getOriginalVersion(function (loader) {
-            DirectUpdateService.startUpdate(loader);
-        });
     });
 }]);
